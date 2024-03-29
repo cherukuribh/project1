@@ -1,0 +1,209 @@
+country,country_code_3_digit,continent,population
+Aruba,ABW,America,106766
+Afghanistan,AFG,Asia,38928341
+Angola,AGO,Africa,32866268
+Anguilla,AIA,America,15002
+Albania,ALB,Europe,2862427
+Andorra,AND,Europe,76177
+United Arab Emirates,ARE,Asia,9890400
+Argentina,ARG,America,45195777
+Armenia,ARM,Europe,2963234
+Antigua and Barbuda,ATG,America,97928
+Australia,AUS,Oceania,25499881
+Austria,AUT,Europe,8858775
+Azerbaijan,AZE,Europe,10139175
+Burundi,BDI,Africa,11890781
+Belgium,BEL,Europe,11455519
+Benin,BEN,Africa,12123198
+"Bonaire, Saint Eustatius and Saba",BES,America,26221
+Burkina Faso,BFA,Africa,20903278
+Bangladesh,BGD,Asia,164689383
+Bulgaria,BGR,Europe,7000039
+Bahrain,BHR,Asia,1701583
+Bahamas,BHS,America,393248
+Bosnia and Herzegovina,BIH,Europe,3280815
+Belarus,BLR,Europe,9449321
+Belize,BLZ,America,397621
+Bermuda,BMU,America,62273
+Bolivia,BOL,America,11673029
+Brazil,BRA,America,212559409
+Barbados,BRB,America,287371
+Brunei_Darussalam,BRN,Asia,437483
+Bhutan,BTN,Asia,771612
+Botswana,BWA,Africa,2351625
+Central African Republic,CAF,Africa,4829764
+Canada,CAN,America,37742157
+Switzerland,CHE,Europe,8544527
+Chile,CHL,America,19116209
+China,CHN,Asia,1439323774
+Cote_dIvoire,CIV,Africa,26378275
+Cameroon,CMR,Africa,26545864
+Democratic Republic of the Congo,COD,Africa,89561404
+Congo,COG,Africa,5518092
+Colombia,COL,America,50882884
+Comoros,COM,Africa,869595
+Cape_Verde,CPV,Africa,555988
+Costa_Rica,CRI,America,5094114
+Cuba,CUB,America,11326616
+Curacao,CUW,America,164100
+Cayman Islands,CYM,America,65720
+Cyprus,CYP,Europe,875899
+Czechia,CZE,Europe,10649800
+Germany,DEU,Europe,83019213
+Djibouti,DJI,Africa,988002
+Dominica,DMA,America,71991
+Denmark,DNK,Europe,5806081
+Dominican Republic,DOM,America,10847904
+Algeria,DZA,Africa,43851043
+Ecuador,ECU,America,17643060
+Egypt,EGY,Africa,102334403
+Eritrea,ERI,Africa,3546427
+Western Sahara,ESH,Africa,597330
+Spain,ESP,Europe,46937060
+Estonia,EST,Europe,1324820
+Ethiopia,ETH,Africa,114963583
+Finland,FIN,Europe,5517919
+Fiji,FJI,Oceania,896444
+Falkland Islands(Malvinas),FLK,America,3483
+France,FRA,Europe,67012883
+Faroe Islands,FRO,Europe,48865
+Gabon,GAB,Africa,2225728
+United Kingdom,GBR,Europe,66647112
+Georgia,GEO,Europe,3989175
+Guernsey,GGY,Europe,64468
+Ghana,GHA,Africa,31072945
+Gibraltar,GIB,Europe,33691
+Guinea,GIN,Africa,13132792
+Gambia,GMB,Africa,2416664
+Guinea_Bissau,GNB,Africa,1967998
+Equatorial Guinea,GNQ,Africa,1402985
+Greece,GRC,Europe,10724599
+Grenada,GRD,America,112519
+Greenland,GRL,America,56772
+Guatemala,GTM,America,17915567
+Guam,GUM,Oceania,168783
+Guyana,GUY,America,786559
+Honduras,HND,America,9904608
+Croatia,HRV,Europe,4076246
+Haiti,HTI,America,11402533
+Hungary,HUN,Europe,9772756
+Indonesia,IDN,Asia,273523621
+Isle_of_Man,IMN,Europe,85032
+India,IND,Asia,1380004385
+Ireland,IRL,Europe,4904240
+Iran,IRN,Asia,83992953
+Iraq,IRQ,Asia,40222503
+Iceland,ISL,Europe,356991
+Israel,ISR,Asia,8655541
+Italy,ITA,Europe,60359546
+Jamaica,JAM,America,2961161
+Jersey,JEY,Europe,107796
+Jordan,JOR,Asia,10203140
+Japan,JPN,Asia,126476458
+Kazakhstan,KAZ,Asia,18776707
+Kenya,KEN,Africa,53771300
+Kyrgyzstan,KGZ,Asia,6524191
+Cambodia,KHM,Asia,16718971
+Saint Kitts and Nevis,KNA,America,53192
+South Korea,KOR,Asia,51269183
+Kuwait,KWT,Asia,4270563
+Laos,LAO,Asia,7275556
+Lebanon,LBN,Asia,6825442
+Liberia,LBR,Africa,5057677
+Libya,LBY,Africa,6871287
+Saint Lucia,LCA,America,183629
+Liechtenstein,LIE,Europe,38378
+Sri Lanka,LKA,Asia,21413250
+Lesotho,LSO,Africa,2142252
+Lithuania,LTU,Europe,2794184
+Luxembourg,LUX,Europe,613894
+Latvia,LVA,Europe,1919968
+Morocco,MAR,Africa,36910558
+Monaco,MCO,Europe,33085
+Moldova,MDA,Europe,4033963
+Madagascar,MDG,Africa,27691019
+Maldives,MDV,Asia,540542
+Mexico,MEX,America,128932753
+North Macedonia,MKD,Europe,2077132
+Mali,MLI,Africa,20250834
+Malta,MLT,Europe,493559
+Myanmar,MMR,Asia,54409794
+Montenegro,MNE,Europe,622182
+Mongolia,MNG,Asia,3278292
+Northern Mariana Islands,MNP,Oceania,57557
+Mozambique,MOZ,Africa,31255435
+Mauritania,MRT,Africa,4649660
+Mauritius,MUS,Africa,1271767
+Malawi,MWI,Africa,19129955
+Malaysia,MYS,Asia,32365998
+Namibia,NAM,Africa,2540916
+New_Caledonia,NCL,Oceania,285491
+Niger,NER,Africa,24206636
+Nigeria,NGA,Africa,206139587
+Nicaragua,NIC,America,6624554
+Netherlands,NLD,Europe,17282163
+Norway,NOR,Europe,5328212
+Nepal,NPL,Asia,29136808
+New_Zealand,NZL,Oceania,4822233
+Oman,OMN,Asia,5106622
+Pakistan,PAK,Asia,220892331
+Panama,PAN,America,4314768
+Peru,PER,America,32971846
+Philippines,PHL,Asia,109581085
+Papua New Guinea,PNG,Oceania,8947027
+Poland,POL,Europe,37972812
+Puerto Rico,PRI,America,2860840
+Portugal,PRT,Europe,10276617
+Paraguay,PRY,America,7132530
+Palestine,PSE,Asia,5101416
+French Polynesia,PYF,Oceania,280904
+Qatar,QAT,Asia,2881060
+Romania,ROU,Europe,19414458
+Russia,RUS,Europe,145934460
+Rwanda,RWA,Africa,12952209
+Saudi Arabia,SAU,Asia,34813867
+Sudan,SDN,Africa,43849269
+Senegal,SEN,Africa,16743930
+Singapore,SGP,Asia,5850343
+Solomon Islands,SLB,Oceania,686878
+Sierra Leone,SLE,Africa,7976985
+El Salvador,SLV,America,6486201
+San Marino,SMR,Europe,34453
+Somalia,SOM,Africa,15893219
+Serbia,SRB,Europe,6963764
+South Sudan,SSD,Africa,11193729
+Sao Tome and Principe,STP,Africa,219161
+Suriname,SUR,America,586634
+Slovakia,SVK,Europe,5450421
+Slovenia,SVN,Europe,2080908
+Sweden,SWE,Europe,10230185
+Eswatini,SWZ,Africa,1160164
+Sint Maarten,SXM,America,42882
+Seychelles,SYC,Africa,98340
+Syria,SYR,Asia,17500657
+Turks and Caicos islands,TCA,America,38718
+Chad,TCD,Africa,16425859
+Togo,TGO,Africa,8278737
+Thailand,THA,Asia,69799978
+Tajikistan,TJK,Asia,9537642
+Timor Leste,TLS,Asia,1318442
+Trinidad and Tobago,TTO,America,1399491
+Tunisia,TUN,Africa,11818618
+Turkey,TUR,Europe,82003882
+Taiwan,TWN,Asia,23816775
+United Republic of Tanzania,TZA,Africa,59734213
+Uganda,UGA,Africa,45741000
+Ukraine,UKR,Europe,43733759
+Uruguay,URY,America,3473727
+United States of America,USA,America,331002647
+Uzbekistan,UZB,Asia,33469199
+the Holy See/ Vatican City State,VAT,Europe,809
+Saint Vincent and the Grenadines,VCT,America,110947
+Venezuela,VEN,America,28435943
+British Virgin Islands,VGB,America,30237
+United States Virgin Islands,VIR,America,104423
+Vietnam,VNM,Asia,97338583
+Yemen,YEM,Asia,29825968
+South Africa,ZAF,Africa,59308690
+Zambia,ZMB,Africa,18383956
+Zimbabwe,ZWE,Africa,14862927

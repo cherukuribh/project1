@@ -1,0 +1,404 @@
+Python  
+
+1.What is init keyword ? 
+
+__init__ method is also called as constructor and used to initialize objects of a class.Like methods, a constructor also contains a collection 
+of statements(i.e. instructions) that are executed at the time of Object creation. It is run as soon as an object of a class is instantiated. 
+
+Example: 
+
+class Person: 
+
+     # init method or constructor 
+
+    def __init__(self, name): 
+
+        self.name = name 
+
+# Sample Method 
+
+    def say_hi(self): 
+
+        print('Hello, my name is', self.name) 
+
+ 
+
+p = Person('Nikhil') 
+
+p.say_hi() 
+
+ 
+
+2.What is self keyword ? 
+
+Self represents the instance of the class. By using the “self”   we can access the attributes and methods of the class in Python. 
+It is customary to use “self” as the first parameter in instance methods of a class.  Lambda functions can take any number of arguments 
+but can only have one expression. They are often used in situations where a function is needed temporarily or as an argument to 
+higher-order functions like map(), filter(), and sorted(). 
+
+3.What is lambda functon? 
+
+Python Lambda Functions are anonymous functions means that the function is without a name. 
+As we already know the def keyword is used to define a normal function in Python. 
+Similarly, the lambda keyword is used to define an anonymous function in Python.   
+
+def cube(y): 
+
+    return y*y*y 
+
+  
+
+lambda_cube = lambda y: y*y*y 
+
+print("Using function defined with `def` keyword, cube:", cube(5)) 
+
+print("Using lambda function, cube:", lambda_cube(5)) 
+
+ 
+
+Both lambda and cube function returns same output. 
+
+Lambda function with list comparison: 
+
+is_even_list = [lambda arg=x: arg * 10 for x in range(1, 5)] 
+
+for item in is_even_list: 
+
+    print(item()) 
+
+Output: 10 20 30 40 
+
+ 
+
+Lambda function with IFELSE: 
+
+Max = lambda a, b : a if(a > b) else b 
+
+print(Max(1, 2)) 
+
+Output: 2 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4.Difference between lambda and normal function? 
+
+ 
+
+Using the lambda function can sometime reduce the readability of code. (difficult to understand complex code) 
+
+We can use comments and function descriptions for easy readability. ( easy to understand using readable comments) 
+
+5.What are generators? When to use ? share one example 
+
+A Generator in Python is a function that returns an iterator using the Yield keyword. A generator function in Python is 
+defined like a normal function, but whenever it needs to generate a value, it does so with the yield keyword rather than return. 
+If the body of a def contains yield, the function automatically becomes a Python generator function. 
+
+Generators are particularly useful when dealing with large datasets or when you need to generate a potentially infinite sequence of values.
+ They help conserve memory by generating values on-demand, making them efficient for processing large amounts of data without loading everything
+ into memory at once. 
+
+# A generator function that yields 1 for first time,  
+
+# 2 second time and 3 third time  
+
+def simpleGeneratorFun():  
+
+    yield 1             
+
+    yield 2             
+
+    yield 3             
+
+    
+
+# Driver code to check above generator function  
+
+for value in simpleGeneratorFun():   
+
+    print(value) 
+
+ 
+
+Output: 1 
+
+2 
+
+3 
+
+ 
+
+6.Python is compiled or interpreted language ? what does it mean? 
+
+Python is often described as an interpreted language because it executes code line by line at runtime. 
+However, Python first compiles source code into bytecode before execution, which blurs the line between interpreted and compiled languages. 
+The Python Virtual Machine (PVM) executes the bytecode generated from the source code. 
+
+This hybrid approach offers benefits such as platform independence (the same bytecode can run on any platform with a compatible PVM) 
+and allows for dynamic execution and code manipulation. 
+
+7.What is the difference between list and tuples in Python? 
+
+Lists: = [1,2,3,4] 
+
+1. Lists are mutable, meaning their elements can be modified after creation. You can add, remove, or modify elements in a list. 
+
+2 .Lists are defined using square brackets [ ]. 
+
+3. Lists generally have more overhead because they are mutable, which requires extra memory allocation and management. 
+
+4. Use lists when you need a collection of items that can be modified or reordered, such as storing a list of user inputs or processing dynamic data. 
+
+Tuples: = (1,2,3,4) 
+
+1. Tuples are immutable, meaning once they are created, their elements cannot be changed. You cannot add, remove, or modify elements in a tuple. 
+
+2. Tuples are defined using parentheses ( ). 
+
+3. Tuples are more memory-efficient and offer better performance, especially for read-only operations. 
+
+4. Use tuples when you want to represent fixed collections of items that should not change, such as coordinates, database records, or function arguments. 
+
+8.What is the difference between list and set in Python? 
+
+List: [1,2,3,3,4] : print list : [1,2,3,3,4]  
+
+1. Lists maintain the order of elements as they are inserted. You can access elements in a list by their index. 
+
+2. Lists can contain duplicate elements. Each element is stored independently. 
+
+3. Lists are mutable, meaning their elements can be modified after creation. You can add, remove, or modify elements in a list. 
+
+4. Use lists when you need a collection of ordered elements that may contain duplicates and need to be modified. 
+
+Set: {1,2,3,3,4} print(set) = {1,2,3,4} 
+
+1. Sets do not maintain any particular order. Elements are stored in an unordered manner, and there is no indexing. 
+
+2. Sets do not allow duplicate elements. If you try to add a duplicate element to a set, it will only store one instance of it. 
+
+3. Sets are mutable, but the set itself is immutable. Once a set is created, you cannot change its elements, but you can add or remove elements from it. 
+
+4. Use sets when you need to work with unique elements, perform set operations (like union, intersection, difference), 
+or remove duplicates from a collection. 
+
+9.When to use dictionary? 
+
+When you want a mapping from keys to values, use a dict. 
+(For example, when you want a telephone book which maps names to phone numbers: {'John Smith' : '555-1212'}). 
+Note the keys in a dict are unordered. (If you iterate through a dict (telephone book), the keys (names) may show up in any order). 
+
+10.What are decorators? When to use ? share one example 
+
+Decorators in Python are a powerful tool that allows you to add functionality to existing functions or methods without changing their code.
+ They are defined using the @decorator_name syntax and are essentially functions that wrap other functions or methods to extend or modify their behaviour. 
+
+You can use decorators in various situations: 
+
+1. Logging: Decorators can log information before and after the execution of functions, helping with debugging and monitoring. 
+
+2. Authorization: Decorators can check if a user has the required permissions before executing a function, adding security to your application. 
+
+3. Caching: Decorators can cache the results of expensive function calls to improve performance by avoiding redundant computations. 
+
+4. Rate Limiting: Decorators can limit the rate at which a function or method can be called, preventing abuse or overloading of resources. 
+
+5. Validation: Decorators can validate input parameters or output values of functions to ensure data integrity. 
+
+def decor1(func):  
+
+    def inner():  
+
+        x = func()  
+
+        return x * x  
+
+    return inner  
+
+  
+
+def decor(func):  
+
+    def inner():  
+
+        x = func()  
+
+        return 2 * x  
+
+    return inner  
+
+  
+
+@decor1 
+
+@decor 
+
+def num():  
+
+    return 10    
+
+print(num())  
+
+ 
+
+Output: 200 
+
+ 
+
+11.What are Iterators? 
+
+An iterator is an object that is used to iterate over iterable objects like lists, tuples, dicts, and sets. The Python iterators object is initialized using the iter() method. It uses the next() method for iteration. 
+
+The iter() method is called for the initialization of an iterator. This returns an iterator object 
+
+The next method returns the next value for the iterable. When we use a for loop to traverse any iterable object, internally it uses the iter() method to get an iterator object, which further uses the next() method to iterate over. This method raises a StopIteration to signal the end of the iteration. 
+
+string = "GFG" 
+
+ch_iterator = iter(string) 
+
+  
+
+print(next(ch_iterator)) 
+
+print(next(ch_iterator)) 
+
+print(next(ch_iterator)) 
+
+ 
+
+OUTPUT: G 
+
+F 
+
+G 
+
+12.What is slicing? 
+
+Slicing in Python refers to the technique of extracting a portion (or a slice) of a sequence, such as a list, tuple, or string. It allows you to retrieve multiple elements from the sequence by specifying a start index, an end index, and an optional step size. 
+
+sequence = [1, 2, 3, 4, 5]  
+
+# Basic slicing  
+
+print(sequence[1:4]) # Output: [2, 3, 4] 
+
+ # Slicing with step size  
+
+print(sequence[::2]) # Output: [1, 3, 5]  
+
+# Reversing a sequence  
+
+print(sequence[::-1]) # Output: [5, 4, 3, 2, 1] 
+
+13.What is mutable and immutable? 
+
+Mutable objects are objects whose state (or content) can be changed after they are created. ex: lists, dictionaries, and sets. When you modify a mutable object, you're actually changing the object's state. 
+
+Immutable objects are objects whose state cannot be changed after they are created. ex: integers, floats, strings, tuples, and frozen sets. Immutable objects, however, cannot be changed once they are created; any operation that seems to modify an immutable object actually creates a new object with the modified value. 
+
+14.Python is single thread or multithread? 
+
+Python supports both single-threaded and multi-threaded programming.By default, Python runs single-threaded. This means that Python code is executed sequentially, with only one instruction being processed at a time. 
+
+However, Python also provides support for multi-threaded programming through the threading module. With this module, you can create and manage multiple threads of execution within a single Python process. Each thread runs independently, allowing for concurrent execution of tasks and potentially improving performance in scenarios where tasks can be executed in parallel. 
+
+Python's Global Interpreter Lock (GIL) imposes limitations on multi-threaded execution in CPython, the reference implementation of Python. The GIL ensures that only one thread executes Python bytecode at a time, effectively limiting the parallelism of multi-threaded programs, especially those involving CPU-bound tasks. However, multi-threading can still be useful for I/O-bound tasks, such as network requests or file operations, where threads spend most of their time waiting for external events. 
+
+15.What is GIL 
+
+GIL stands for Global Interpreter Lock. It is a mutex (or lock) that protects access to Python objects, preventing multiple native threads from executing Python bytecodes simultaneously in a single Python process. 
+
+In simpler terms, the GIL ensures that only one thread executes Python bytecode at a time, even in multi-threaded Python programs. This means that Python threads cannot fully utilize multiple CPU cores for parallel execution of CPU-bound tasks. 
+
+The presence of the GIL is a characteristic of CPython, the reference implementation of Python. Other implementations, such as Jython and IronPython, do not have a GIL. 
+
+ 
+
+16.What you don’t like about python? 
+
+17.What is list Comprehension? 
+
+List comprehension is a concise and efficient way of creating lists in Python. It allows you to create a new list by applying an expression to each element of an existing iterable (such as a list, tuple, or range) and filtering the elements based on a condition. 
+
+A list comprehension generally consists of these parts :  
+
+Output expression, Input sequence, A variable representing a member of the input sequence and An optional predicate part. 
+
+For example : lst  =  [x ** 2  for x in range (1, 11)   if  x % 2 == 1]  
+ 
+here, x ** 2 is output expression,  
+      range (1, 11)  is input sequence,  
+      x is variable and    
+      if x % 2 == 1 is predicate part. 
+
+ 
+Another example : lst=[x**2 if x%2==1 else x*2 for x in range(1,11)] 
+
+18.What are Dunder methods? Give examples 
+
+Dunder methods (short for "double underscore" methods) are special methods in Python that have double underscore (__) prefixes and suffixes in their names.  
+
+These methods are also known as magic methods or special methods.  
+
+They provide functionality that allows objects to emulate built-in Python behavior and support operator  
+
+overloading, customization of behavior, and interaction with the Python data model. 
+
+__init__: called when an object is created. It initializes the object's state. 
+
+__str__: This method is called when the str() function is used on an object. It returns a string representation of the object. 
+
+__add__: This method is called when the + operator is used on objects. It defines behavior for addition. 
+
+class Point:  
+
+def __init__(self, x, y):  
+
+self.x = x self.y = y  
+
+def __add__(self, other):  
+
+return Point(self.x + other.x, self.y + other.y)  
+
+p1 = Point(1, 2) 
+
+ p2 = Point(3, 4) 
+
+ result = p1 + p2 
+
+print(result.x, result.y) # Output: 4 6 
+
+19.What does _init_ method do? 
+
+The __init__ method in Python is a special method (also known as a constructor) that is automatically called when a new instance of a class is created. Its primary purpose is to initialize the attributes of the newly created object. 
+
+20.Difference between array and numpy library. 
+
+Array:  
+
+The array module supports only one-dimensional arrays. 
+
+It offers basic array manipulation functions and methods. 
+
+The array module lacks many of these advanced features and is primarily focused on providing basic array functionality. 
+
+Numpy: 
+
+It  provides support for multi-dimensional arrays (ndarrays) of various data types, including integers, floats, booleans, and more. 
+
+It provides a comprehensive set of functions and methods for mathematical operations, array manipulation, linear algebra, Fourier transforms, random number generation, and more. 
+
+Is optimized for numerical computations and offers better performance compared to the array module, especially for large datasets and complex operations. 
+
+It includes a wide range of additional features such as broadcasting, slicing, fancy indexing, and universal functions (ufuncs), which enable efficient element-wise operations on arrays. 
+
+ 
+
+ 

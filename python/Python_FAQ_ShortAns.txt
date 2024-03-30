@@ -1,0 +1,89 @@
+Python 
+1.What is init keyword ?
+known as constructor, initializes objects of a class.run as soon as an object of a class is instantiated. 
+
+2.What is self keyword ?
+self represents the instance of a class. used as the first parameter in instance methods 
+to reference the current object.
+
+3.What is lambda functon?
+is an anonymous function using the lambda keyword.It's typically used for short, one-line functions.
+They are often used in situations where a function is needed temporarily or as an argument to 
+higher-order functions like map(), filter(), and sorted().
+
+4.Difference between lambda and normal function?
+Lambda functions are compact and used for quick tasks, 
+while normal functions offer more flexibility and readability for complex operations.
+
+5.What are generators? When to use ? share one example
+Generators in Python use the yield keyword to lazily produce values one at a time, creating an iterator. 
+They're ideal for conserving memory, especially with large datasets or potentially infinite sequences, 
+as they generate values on-demand. When a function contains yield, it becomes a generator function.
+
+6.Python is compiled or interpreted language ? what does it mean?
+Python is often called an interpreted language because it executes code line by line at runtime. 
+However, it first compiles source code into bytecode before execution. 
+The Python Virtual Machine (PVM) then executes this bytecode. 
+This hybrid approach offers benefits like platform independence and allows for dynamic execution 
+and code manipulation.
+
+7.What is the difference between list and tuples in Python?
+Lists:[1,2,3,4] Mutable (can change) , Time-consuming iterations, Easier insertions and deletions, Memory consumption is more,
+many built-in methods,more likely to encounter errors
+Tuples:(1,2,3,4) Immutable (cant change),faster iterations compared to lists, no insertions/deletion, Memory consumption is less,
+fewer built-in methods,less prone to errors.
+
+8.What is the difference between list and set in Python?
+lists are ordered collections that allow duplicates and are mutable, 
+while sets are unordered collections that do not allow duplicates and are mutable. 
+Lists are suitable for sequences of elements, 
+while sets are useful for storing unique elements and performing set operations.
+
+9.When to use dictionary?
+Dictionaries in Python are useful when you need to store data in key-value pairs. 
+
+10.What are decorators? When to use ? share one example
+Decorators in Python are functions that wrap other functions or methods to extend or modify their behavior, using the @decorator_name syntax. 
+They're useful for tasks like logging, authorization, caching, rate limiting, and validation, enhancing the functionality of existing code 
+without altering its structure.
+
+11.What are Iterators?
+An iterator in Python is an object used to iterate over iterable objects like lists, tuples, dicts, and sets. 
+It's initialized using the iter() method and iterated using the next() method. When using a for loop, 
+Python internally employs iter() and next() methods. The iteration ends with a StopIteration signal.
+
+12.What is slicing?
+Slicing is extracting a portion of a sequence like a list, tuple, or string by specifying start, end, and optional step size indices. 
+It retrieves multiple elements efficiently.
+
+13.What is mutable and immutable?
+mutable objects can be modified after creation, while immutable objects cannot be modified once created.
+
+14.Python is single thread or multithread?
+ Python supports both single-threaded and multi-threaded programming, with the threading module providing 
+facilities for creating and managing threads.
+However,Python's Global Interpreter Lock GIL can impact the performance of multi-threaded programs in CPU-bound scenarios.
+
+15.What is GIL
+The GIL (Global Interpreter Lock) in Python ensures that only one thread executes Python bytecode at a time, preventing true parallelism in multi-threaded programs. 
+This limitation hinders the full utilization of multiple CPU cores for CPU-bound tasks.
+
+16.What you don’t like about python?
+
+17.What is list Comprehension?
+List comprehension offers a more concise and readable alternative to traditional loops for creating lists, 
+making your code more expressive and efficient.
+ex: lst  =  [x ** 2  for x in range (1, 11)   if  x % 2 == 1]
+
+18.What are Dunder methods? Give examples
+Dunder methods, also called magic methods or special methods, are prefixed and suffixed with double underscores (__). 
+They enable objects to emulate built-in Python behavior, support operator overloading, customize behavior, and interact with the Python data model.
+
+19.What does _init_ method do?
+The __init__ method is a special method (constructor) in Python automatically called when a new instance of a class is created. 
+Its purpose is to initialize the attributes of the object.
+
+20.Difference between array and numpy library.
+while both the array module and numpy library offer array-like data structures in Python, 
+numpy provides a more powerful and efficient solution for numerical computations and array manipulation, 
+making it the preferred choice for scientific computing and data analysis tasks.
